@@ -1,0 +1,34 @@
+{
+  "name": "sonolus-awanotsu-legacy",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "convert": "tsx converter/cli.ts",
+    "check-type": "tsc -p play --noEmit && tsc -p watch --noEmit && tsc -p preview --noEmit && tsc -p tutorial --noEmit && tsc -p shared --noEmit && tsc -p converter --noEmit",
+    "build": "node build/index.js"
+  },
+  "dependencies": {
+    "@sonolus/core": "7.13.1",
+    "@sonolus/express": "7.3.4",
+    "@sonolus/free-pack": "1.1.7",
+    "express": "4.22.3"
+  },
+  "devDependencies": {
+    "@sonolus/sonolus.js": "9.5.5",
+    "@sonolus/sonolus.js-compiler": "1.6.6",
+    "@types/node": "22.19.19",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3"
+  },
+  "overrides": {
+    "@sonolus/core": "7.13.1",
+    "@sonolus/express": "7.3.4",
+    "@sonolus/sonolus.js-compiler": "1.6.6"
+  }
+}

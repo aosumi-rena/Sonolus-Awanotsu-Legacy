@@ -1,0 +1,1249 @@
+{
+  "locales": {
+    "ja": {
+      "options": {
+        "#SPEED": {},
+        "#HIDDEN": {},
+        "#EFFECT": {
+          "description": "ノーツの音とライブ中の効果音を鳴らします。"
+        },
+        "#EFFECT_AUTO": {
+          "description": "タップのタイミングにかかわらず、譜面どおりにノーツ音を鳴らします。"
+        },
+        "#NOTE_EFFECT": {
+          "description": "ノーツ判定時にエフェクトを表示します。"
+        },
+        "#LANE_EFFECT": {
+          "description": "ノーツを叩いたときや空タップをしたときにレーンが光ります。"
+        },
+        "#STAGE_ASPECTRATIO_LOCK": {},
+        "#PREVIEW_SCALE_VERTICAL": {},
+        "Strict Flick Direction": {
+          "title": "フリック方向の厳密判定",
+          "description": "矢印の向きに合わせたフリックのみ有効になります。"
+        },
+        "Notes Speed": {
+          "title": "ノーツ速度",
+          "description": "数値を上げると、ノーツが判定ラインに近づく速度が上がります。"
+        },
+        "Notes Timing": {
+          "title": "ノーツタイミング",
+          "description": "SLOWが多いときは数値を上げ、FASTが多いときは下げてください。"
+        },
+        "Chart Position": {
+          "title": "譜面位置",
+          "description": "プラスにすると曲に対して譜面が遅くなり、マイナスにすると早くなります。"
+        },
+        "Mirror Chart": {
+          "title": "ミラー譜面"
+        },
+        "FAST/SLOW Display": {
+          "title": "FAST/SLOW表示"
+        },
+        "PERFECT FAST/SLOW Display": {
+          "title": "PERFECTのFAST/SLOW表示"
+        },
+        "FAST/SLOW Numerical Display": {
+          "title": "FAST/SLOW 数値表示"
+        },
+        "Judgment Text Display Position": {
+          "values": [
+            "中央",
+            "各レーン",
+            "表示なし"
+          ],
+          "title": "判定表示"
+        },
+        "HIT Position": {
+          "title": "判定位置"
+        },
+        "HIT Position Display": {
+          "title": "判定位置表示"
+        },
+        "Slide Opacity": {
+          "title": "スライド不透明度"
+        },
+        "Guide Opacity": {
+          "title": "ガイド不透明度"
+        },
+        "Simultaneous Press Line Display": {
+          "title": "同時押しライン表示"
+        },
+        "Bar Line Display": {
+          "title": "小節線表示"
+        },
+        "Damage Effect": {
+          "title": "ダメージ演出"
+        },
+        "Background Brightness": {
+          "title": "背景明るさ",
+          "description": "数値を下げるとノーツの背景が暗くなります。"
+        },
+        "Combo Number Display": {
+          "title": "コンボ数表示"
+        },
+        "HIT Breakdown": {
+          "title": "判定内訳表示"
+        },
+        "Continuous Effect Display": {
+          "title": "継続演出表示"
+        },
+        "Lane Opacity": {
+          "title": "レーン不透明度",
+          "description": "数値を下げると、レーン越しにステージが見えやすくなります。"
+        },
+        "Guideline Opacity": {
+          "title": "ガイドライン不透明度"
+        },
+        "Number of Guidelines": {
+          "values": [
+            "表示なし",
+            "4レーン",
+            "6レーン",
+            "8レーン",
+            "12レーン"
+          ],
+          "title": "ガイドライン表示数"
+        },
+        "LIVE Skill Activation Display": {
+          "title": "ライブスキル発動位置表示"
+        },
+        "Notes Start Position": {
+          "title": "ノーツ開始位置"
+        },
+        "SE Mute": {
+          "title": "SE（ミュート）"
+        },
+        "Notes SE Mute": {
+          "title": "ノーツSE（ミュート）"
+        },
+        "Notes SE Change": {
+          "values": [
+            "アワーノーツ",
+            "ソリッド",
+            "ウッド",
+            "タイピング"
+          ],
+          "title": "ノーツSE変更"
+        },
+        "Notes Type SE & Volume Setting": {
+          "title": "ノーツ種ごとのSEと音量調整"
+        },
+        "Tap": {
+          "values": [
+            "アワーノーツ",
+            "ソリッド",
+            "ウッド",
+            "タイピング"
+          ],
+          "title": "タップ"
+        },
+        "Tap Mute": {
+          "title": "タップ（ミュート）"
+        },
+        "Empty Tap": {
+          "values": [
+            "アワーノーツ",
+            "ソリッド",
+            "ウッド",
+            "タイピング"
+          ],
+          "title": "空タップ"
+        },
+        "Empty Tap Mute": {
+          "title": "空タップ（ミュート）"
+        },
+        "Flick": {
+          "values": [
+            "アワーノーツ",
+            "ソリッド",
+            "ウッド",
+            "タイピング"
+          ],
+          "title": "フリック"
+        },
+        "Flick Mute": {
+          "title": "フリック（ミュート）"
+        },
+        "Side Flick": {
+          "values": [
+            "アワーノーツ",
+            "ソリッド",
+            "ウッド",
+            "タイピング"
+          ],
+          "title": "サイドフリック"
+        },
+        "Side Flick Mute": {
+          "title": "サイドフリック（ミュート）"
+        },
+        "Slide": {
+          "values": [
+            "アワーノーツ",
+            "ソリッド",
+            "ウッド",
+            "タイピング"
+          ],
+          "title": "スライド"
+        },
+        "Slide Mute": {
+          "title": "スライド（ミュート）"
+        },
+        "Trace": {
+          "values": [
+            "アワーノーツ",
+            "ソリッド",
+            "ウッド",
+            "タイピング"
+          ],
+          "title": "トレース"
+        },
+        "Trace Mute": {
+          "title": "トレース（ミュート）"
+        },
+        "判定表示位置": {
+          "values": [
+            "パターン1",
+            "パターン2"
+          ],
+          "title": "判定表示位置"
+        },
+        "Rhythm Support": {
+          "title": "リズムサポート",
+          "description": "小節内のタイミングに応じて、タップ・フリック・スライド始点の見た目を変えます。"
+        }
+      },
+      "categories": {
+        "Sonolus": "Sonolus",
+        "Basic / Notes Setting": "基本 - ノーツ設定",
+        "Basic / LIVE Setting": "基本 - ライブ設定",
+        "Details / Lane Setting": "詳細 - レーン設定",
+        "Details / Notes Setting": "詳細 - ノーツ設定",
+        "Details / Effect Setting": "詳細 - 演出設定",
+        "Display 1 / Background Display Setting": "表示1 - 背景表示設定",
+        "Display 1 / Combo Display Setting": "表示1 - コンボ表示設定",
+        "Display 2 / Lane Skin Display Setting": "表示2 - レーン・スキン表示設定",
+        "Display 2 / Notes Skin Display Setting": "表示2 - ノーツ・スキン表示設定",
+        "Sound / LIVE Volume": "サウンド - ライブ音量",
+        "Sound / Notes SE": "サウンド - ノーツSE"
+      }
+    },
+    "en": {
+      "options": {
+        "#SPEED": {},
+        "#HIDDEN": {},
+        "#EFFECT": {
+          "description": "Play note sounds and live sound effects."
+        },
+        "#EFFECT_AUTO": {
+          "description": "Play note sounds on the beat, regardless of when you tap."
+        },
+        "#NOTE_EFFECT": {
+          "description": "Show a visual effect when a note is judged."
+        },
+        "#LANE_EFFECT": {
+          "description": "Light up the lane when you hit a note or tap an empty lane."
+        },
+        "#STAGE_ASPECTRATIO_LOCK": {},
+        "#PREVIEW_SCALE_VERTICAL": {},
+        "Strict Flick Direction": {
+          "title": "Strict Flick Direction",
+          "description": "Require flicks to follow the arrow direction."
+        },
+        "Notes Speed": {
+          "title": "Notes Speed",
+          "description": "Higher values make notes approach the judgment line faster."
+        },
+        "Notes Timing": {
+          "title": "Notes Timing",
+          "description": "If you see more SLOW judgments, increase the value. If you see more FAST judgments, decrease it."
+        },
+        "Chart Position": {
+          "title": "Chart Position",
+          "description": "Positive values delay the chart relative to the music. Negative values move it earlier."
+        },
+        "Mirror Chart": {
+          "title": "Mirror Chart"
+        },
+        "FAST/SLOW Display": {
+          "title": "FAST/SLOW Display"
+        },
+        "PERFECT FAST/SLOW Display": {
+          "title": "PERFECT FAST/SLOW Display"
+        },
+        "FAST/SLOW Numerical Display": {
+          "title": "FAST/SLOW Numerical Display"
+        },
+        "Judgment Text Display Position": {
+          "values": [
+            "Center",
+            "Each Lane",
+            "No Display"
+          ],
+          "title": "HIT Display"
+        },
+        "HIT Position": {
+          "title": "HIT Position"
+        },
+        "HIT Position Display": {
+          "title": "HIT Position Display"
+        },
+        "Slide Opacity": {
+          "title": "Slide Opacity"
+        },
+        "Guide Opacity": {
+          "title": "Guide Opacity"
+        },
+        "Simultaneous Press Line Display": {
+          "title": "Simultaneous Press Line Display"
+        },
+        "Bar Line Display": {
+          "title": "Bar Line Display"
+        },
+        "Damage Effect": {
+          "title": "Damage Effect"
+        },
+        "Background Brightness": {
+          "title": "Background Brightness",
+          "description": "Lower the brightness to darken the stage behind the notes."
+        },
+        "Combo Number Display": {
+          "title": "Combo Number Display"
+        },
+        "HIT Breakdown": {
+          "title": "HIT Breakdown"
+        },
+        "Continuous Effect Display": {
+          "title": "Continuous Effect Display"
+        },
+        "Lane Opacity": {
+          "title": "Lane Opacity",
+          "description": "Lower the opacity to see more of the stage through the lanes."
+        },
+        "Guideline Opacity": {
+          "title": "Guideline Opacity"
+        },
+        "Number of Guidelines": {
+          "values": [
+            "No Display",
+            "4 Lanes",
+            "6 Lanes",
+            "8 Lanes",
+            "12 Lanes"
+          ],
+          "title": "Number of Guidelines"
+        },
+        "LIVE Skill Activation Display": {
+          "title": "LIVE Skill Activation Display"
+        },
+        "Notes Start Position": {
+          "title": "Notes Start Position"
+        },
+        "SE Mute": {
+          "title": "SE (Mute)"
+        },
+        "Notes SE Mute": {
+          "title": "Notes SE (Mute)"
+        },
+        "Notes SE Change": {
+          "values": [
+            "Our Notes",
+            "Solid",
+            "Wood",
+            "Typing"
+          ],
+          "title": "Notes SE Change"
+        },
+        "Notes Type SE & Volume Setting": {
+          "title": "Notes Type SE & Volume Setting"
+        },
+        "Tap": {
+          "values": [
+            "Our Notes",
+            "Solid",
+            "Wood",
+            "Typing"
+          ],
+          "title": "Tap"
+        },
+        "Tap Mute": {
+          "title": "Tap (Mute)"
+        },
+        "Empty Tap": {
+          "values": [
+            "Our Notes",
+            "Solid",
+            "Wood",
+            "Typing"
+          ],
+          "title": "Empty Tap"
+        },
+        "Empty Tap Mute": {
+          "title": "Empty Tap (Mute)"
+        },
+        "Flick": {
+          "values": [
+            "Our Notes",
+            "Solid",
+            "Wood",
+            "Typing"
+          ],
+          "title": "Flick"
+        },
+        "Flick Mute": {
+          "title": "Flick (Mute)"
+        },
+        "Side Flick": {
+          "values": [
+            "Our Notes",
+            "Solid",
+            "Wood",
+            "Typing"
+          ],
+          "title": "Side Flick"
+        },
+        "Side Flick Mute": {
+          "title": "Side Flick (Mute)"
+        },
+        "Slide": {
+          "values": [
+            "Our Notes",
+            "Solid",
+            "Wood",
+            "Typing"
+          ],
+          "title": "Slide"
+        },
+        "Slide Mute": {
+          "title": "Slide (Mute)"
+        },
+        "Trace": {
+          "values": [
+            "Our Notes",
+            "Solid",
+            "Wood",
+            "Typing"
+          ],
+          "title": "Trace"
+        },
+        "Trace Mute": {
+          "title": "Trace (Mute)"
+        },
+        "判定表示位置": {
+          "values": [
+            "Pattern 1",
+            "Pattern 2"
+          ],
+          "title": "HIT Display Position"
+        },
+        "Rhythm Support": {
+          "title": "Rhythm Support",
+          "description": "Change the look of taps, flicks and slide starts to show their timing within the measure."
+        }
+      },
+      "categories": {
+        "Sonolus": "Sonolus",
+        "Basic / Notes Setting": "Basic - Notes Setting",
+        "Basic / LIVE Setting": "Basic - LIVE Setting",
+        "Details / Lane Setting": "Details - Lane Setting",
+        "Details / Notes Setting": "Details - Notes Setting",
+        "Details / Effect Setting": "Details - Effect Setting",
+        "Display 1 / Background Display Setting": "Display 1 - Background Display Setting",
+        "Display 1 / Combo Display Setting": "Display 1 - Combo Display Setting",
+        "Display 2 / Lane Skin Display Setting": "Display 2 - Lane Skin Display Setting",
+        "Display 2 / Notes Skin Display Setting": "Display 2 - Notes Skin Display Setting",
+        "Sound / LIVE Volume": "Sound - LIVE Volume",
+        "Sound / Notes SE": "Sound - Notes SE"
+      }
+    },
+    "ko": {
+      "options": {
+        "#SPEED": {},
+        "#HIDDEN": {},
+        "#EFFECT": {
+          "description": "노트 효과음과 라이브 효과음을 재생합니다."
+        },
+        "#EFFECT_AUTO": {
+          "description": "탭한 시점과 관계없이 채보에 맞춰 노트 효과음을 재생합니다."
+        },
+        "#NOTE_EFFECT": {
+          "description": "노트 판정 시 시각 효과를 표시합니다."
+        },
+        "#LANE_EFFECT": {
+          "description": "노트를 치거나 빈 레인을 탭하면 레인이 빛납니다."
+        },
+        "#STAGE_ASPECTRATIO_LOCK": {},
+        "#PREVIEW_SCALE_VERTICAL": {},
+        "Strict Flick Direction": {
+          "title": "플릭 방향 엄격 판정",
+          "description": "화살표 방향으로 플릭해야 인정됩니다."
+        },
+        "Notes Speed": {
+          "title": "노트 속도",
+          "description": "수치를 높이면 노트가 판정선에 더 빠르게 다가옵니다."
+        },
+        "Notes Timing": {
+          "title": "노트 타이밍",
+          "description": "SLOW 판정이 많으면 수치를 높이고 FAST 판정이 많으면 낮추세요."
+        },
+        "Chart Position": {
+          "title": "채보 위치",
+          "description": "양수로 설정하면 음악보다 채보가 늦어지고 음수로 설정하면 빨라집니다."
+        },
+        "Mirror Chart": {
+          "title": "미러 채보"
+        },
+        "FAST/SLOW Display": {
+          "title": "FAST/SLOW 표시"
+        },
+        "PERFECT FAST/SLOW Display": {
+          "title": "PERFECT의 FAST/SLOW 표시"
+        },
+        "FAST/SLOW Numerical Display": {
+          "title": "FAST/SLOW 수치 표시"
+        },
+        "Judgment Text Display Position": {
+          "values": [
+            "중앙",
+            "각 레인",
+            "표시 없음"
+          ],
+          "title": "판정 표시"
+        },
+        "HIT Position": {
+          "title": "판정 위치"
+        },
+        "HIT Position Display": {
+          "title": "판정 위치 표시"
+        },
+        "Slide Opacity": {
+          "title": "슬라이드 불투명도"
+        },
+        "Guide Opacity": {
+          "title": "가이드 불투명도"
+        },
+        "Simultaneous Press Line Display": {
+          "title": "동시 치기 라인 표시"
+        },
+        "Bar Line Display": {
+          "title": "마디선 표시"
+        },
+        "Damage Effect": {
+          "title": "대미지 연출"
+        },
+        "Background Brightness": {
+          "title": "배경 밝기",
+          "description": "수치를 낮추면 노트 뒤의 무대가 어두워집니다."
+        },
+        "Combo Number Display": {
+          "title": "콤보 수 표시"
+        },
+        "HIT Breakdown": {
+          "title": "판정 상세 표시"
+        },
+        "Continuous Effect Display": {
+          "title": "지속 연출 표시"
+        },
+        "Lane Opacity": {
+          "title": "레인 불투명도",
+          "description": "불투명도를 낮추면 레인 너머로 무대가 더 잘 보입니다."
+        },
+        "Guideline Opacity": {
+          "title": "가이드라인 불투명도"
+        },
+        "Number of Guidelines": {
+          "values": [
+            "표시 없음",
+            "4레인",
+            "6레인",
+            "8레인",
+            "12레인"
+          ],
+          "title": "가이드라인 표시 수"
+        },
+        "LIVE Skill Activation Display": {
+          "title": "라이브 스킬 발동 위치 표시"
+        },
+        "Notes Start Position": {
+          "title": "노트 시작 위치"
+        },
+        "SE Mute": {
+          "title": "SE (음소거)"
+        },
+        "Notes SE Mute": {
+          "title": "노트 SE (음소거)"
+        },
+        "Notes SE Change": {
+          "values": [
+            "아워 노트",
+            "솔리드",
+            "우드",
+            "타이핑"
+          ],
+          "title": "노트 SE 변경"
+        },
+        "Notes Type SE & Volume Setting": {
+          "title": "노트 종류별 SE 및 음량 조절"
+        },
+        "Tap": {
+          "values": [
+            "아워 노트",
+            "솔리드",
+            "우드",
+            "타이핑"
+          ],
+          "title": "탭"
+        },
+        "Tap Mute": {
+          "title": "탭 (음소거)"
+        },
+        "Empty Tap": {
+          "values": [
+            "아워 노트",
+            "솔리드",
+            "우드",
+            "타이핑"
+          ],
+          "title": "빈 탭"
+        },
+        "Empty Tap Mute": {
+          "title": "빈 탭 (음소거)"
+        },
+        "Flick": {
+          "values": [
+            "아워 노트",
+            "솔리드",
+            "우드",
+            "타이핑"
+          ],
+          "title": "플릭"
+        },
+        "Flick Mute": {
+          "title": "플릭 (음소거)"
+        },
+        "Side Flick": {
+          "values": [
+            "아워 노트",
+            "솔리드",
+            "우드",
+            "타이핑"
+          ],
+          "title": "사이드 플릭"
+        },
+        "Side Flick Mute": {
+          "title": "사이드 플릭 (음소거)"
+        },
+        "Slide": {
+          "values": [
+            "아워 노트",
+            "솔리드",
+            "우드",
+            "타이핑"
+          ],
+          "title": "슬라이드"
+        },
+        "Slide Mute": {
+          "title": "슬라이드 (음소거)"
+        },
+        "Trace": {
+          "values": [
+            "아워 노트",
+            "솔리드",
+            "우드",
+            "타이핑"
+          ],
+          "title": "트레이스"
+        },
+        "Trace Mute": {
+          "title": "트레이스 (음소거)"
+        },
+        "判定表示位置": {
+          "values": [
+            "패턴 1",
+            "패턴 2"
+          ],
+          "title": "판정 표시 위치"
+        },
+        "Rhythm Support": {
+          "title": "리듬 서포트",
+          "description": "마디 안의 박자에 따라 탭, 플릭, 슬라이드 시작 노트의 모양을 바꿉니다."
+        }
+      },
+      "categories": {
+        "Sonolus": "Sonolus",
+        "Basic / Notes Setting": "기본 - 노트 설정",
+        "Basic / LIVE Setting": "기본 - 라이브 설정",
+        "Details / Lane Setting": "상세 - 레인 설정",
+        "Details / Notes Setting": "상세 - 노트 설정",
+        "Details / Effect Setting": "상세 - 연출 설정",
+        "Display 1 / Background Display Setting": "표시 1 - 배경 표시 설정",
+        "Display 1 / Combo Display Setting": "표시 1 - 콤보 표시 설정",
+        "Display 2 / Lane Skin Display Setting": "표시 2 - 레인・스킨 표시 설정",
+        "Display 2 / Notes Skin Display Setting": "표시 2 - 노트・스킨 표시 설정",
+        "Sound / LIVE Volume": "사운드 - 라이브 음량",
+        "Sound / Notes SE": "사운드 - 노트 SE"
+      }
+    },
+    "zht": {
+      "options": {
+        "#SPEED": {},
+        "#HIDDEN": {},
+        "#EFFECT": {
+          "description": "播放節奏圖示音效與演出音效。"
+        },
+        "#EFFECT_AUTO": {
+          "description": "依照譜面的時機播放節奏圖示音效，不受點擊時機影響。"
+        },
+        "#NOTE_EFFECT": {
+          "description": "判定節奏圖示時顯示特效。"
+        },
+        "#LANE_EFFECT": {
+          "description": "擊中節奏圖示或點擊空軌道時，軌道會發光。"
+        },
+        "#STAGE_ASPECTRATIO_LOCK": {},
+        "#PREVIEW_SCALE_VERTICAL": {},
+        "Strict Flick Direction": {
+          "title": "嚴格判定撥動方向",
+          "description": "撥動方向必須與箭頭一致。"
+        },
+        "Notes Speed": {
+          "title": "節奏圖示速度",
+          "description": "數值越高，節奏圖示接近判定線的速度越快。"
+        },
+        "Notes Timing": {
+          "title": "節奏圖示時機",
+          "description": "SLOW 判定較多時請調高數值，FAST 判定較多時請調低。"
+        },
+        "Chart Position": {
+          "title": "譜面位置",
+          "description": "正值會讓譜面相對於音樂延後，負值則會讓譜面提前。"
+        },
+        "Mirror Chart": {
+          "title": "鏡像譜面"
+        },
+        "FAST/SLOW Display": {
+          "title": "FAST/SLOW顯示"
+        },
+        "PERFECT FAST/SLOW Display": {
+          "title": "PERFECT的FAST/SLOW顯示"
+        },
+        "FAST/SLOW Numerical Display": {
+          "title": "FAST/SLOW 數值顯示"
+        },
+        "Judgment Text Display Position": {
+          "values": [
+            "中央",
+            "各軌道",
+            "不顯示"
+          ],
+          "title": "判定顯示"
+        },
+        "HIT Position": {
+          "title": "判定位置"
+        },
+        "HIT Position Display": {
+          "title": "判定位置顯示"
+        },
+        "Slide Opacity": {
+          "title": "滑動的不透明度"
+        },
+        "Guide Opacity": {
+          "title": "引導的不透明度"
+        },
+        "Simultaneous Press Line Display": {
+          "title": "同時按壓線顯示"
+        },
+        "Bar Line Display": {
+          "title": "小節線顯示"
+        },
+        "Damage Effect": {
+          "title": "傷害表現"
+        },
+        "Background Brightness": {
+          "title": "背景亮度",
+          "description": "調低亮度可使節奏圖示後方的舞台變暗。"
+        },
+        "Combo Number Display": {
+          "title": "COMBO數顯示"
+        },
+        "HIT Breakdown": {
+          "title": "判定細項顯示"
+        },
+        "Continuous Effect Display": {
+          "title": "連續表現顯示"
+        },
+        "Lane Opacity": {
+          "title": "軌道的不透明度",
+          "description": "調低不透明度，透過軌道可更清楚地看到舞台。"
+        },
+        "Guideline Opacity": {
+          "title": "引導線的不透明度"
+        },
+        "Number of Guidelines": {
+          "values": [
+            "不顯示",
+            "4軌",
+            "6軌",
+            "8軌",
+            "12軌"
+          ],
+          "title": "引導線顯示數量"
+        },
+        "LIVE Skill Activation Display": {
+          "title": "演出技能發動位置顯示"
+        },
+        "Notes Start Position": {
+          "title": "節奏圖示開始位置"
+        },
+        "SE Mute": {
+          "title": "SE（靜音）"
+        },
+        "Notes SE Mute": {
+          "title": "節奏圖示SE（靜音）"
+        },
+        "Notes SE Change": {
+          "values": [
+            "交織的樂章",
+            "厚實",
+            "木質",
+            "打字"
+          ],
+          "title": "變更節奏圖示SE"
+        },
+        "Notes Type SE & Volume Setting": {
+          "title": "依節奏圖示種類調整SE與音量"
+        },
+        "Tap": {
+          "values": [
+            "交織的樂章",
+            "厚實",
+            "木質",
+            "打字"
+          ],
+          "title": "點擊"
+        },
+        "Tap Mute": {
+          "title": "點擊（靜音）"
+        },
+        "Empty Tap": {
+          "values": [
+            "交織的樂章",
+            "厚實",
+            "木質",
+            "打字"
+          ],
+          "title": "空點擊"
+        },
+        "Empty Tap Mute": {
+          "title": "空點擊（靜音）"
+        },
+        "Flick": {
+          "values": [
+            "交織的樂章",
+            "厚實",
+            "木質",
+            "打字"
+          ],
+          "title": "撥動"
+        },
+        "Flick Mute": {
+          "title": "撥動（靜音）"
+        },
+        "Side Flick": {
+          "values": [
+            "交織的樂章",
+            "厚實",
+            "木質",
+            "打字"
+          ],
+          "title": "側向撥動"
+        },
+        "Side Flick Mute": {
+          "title": "側向撥動（靜音）"
+        },
+        "Slide": {
+          "values": [
+            "交織的樂章",
+            "厚實",
+            "木質",
+            "打字"
+          ],
+          "title": "滑動"
+        },
+        "Slide Mute": {
+          "title": "滑動（靜音）"
+        },
+        "Trace": {
+          "values": [
+            "交織的樂章",
+            "厚實",
+            "木質",
+            "打字"
+          ],
+          "title": "描繪"
+        },
+        "Trace Mute": {
+          "title": "描繪（靜音）"
+        },
+        "判定表示位置": {
+          "values": [
+            "版本1",
+            "版本2"
+          ],
+          "title": "判定顯示位置"
+        },
+        "Rhythm Support": {
+          "title": "節奏支援",
+          "description": "依小節內的節奏變更點擊、滑動與長條起點的外觀。"
+        }
+      },
+      "categories": {
+        "Sonolus": "Sonolus",
+        "Basic / Notes Setting": "基本 - 節奏圖示設定",
+        "Basic / LIVE Setting": "基本 - 演出設定",
+        "Details / Lane Setting": "詳情 - 軌道設定",
+        "Details / Notes Setting": "詳情 - 節奏圖示設定",
+        "Details / Effect Setting": "詳情 - 表現設定",
+        "Display 1 / Background Display Setting": "顯示1 - 背景顯示設定",
+        "Display 1 / Combo Display Setting": "顯示1 - COMBO顯示設定",
+        "Display 2 / Lane Skin Display Setting": "顯示2 - 軌道、布景顯示設定",
+        "Display 2 / Notes Skin Display Setting": "顯示2 - 節奏圖示、造型顯示設定",
+        "Sound / LIVE Volume": "音效 - 演出音量",
+        "Sound / Notes SE": "音效 - 節奏圖示SE"
+      }
+    },
+    "zhs": {
+      "options": {
+        "#SPEED": {},
+        "#HIDDEN": {},
+        "#EFFECT": {
+          "description": "播放节奏图示音效和演出音效。"
+        },
+        "#EFFECT_AUTO": {
+          "description": "按谱面时机播放节奏图示音效，不受点击时机影响。"
+        },
+        "#NOTE_EFFECT": {
+          "description": "判定节奏图示时显示特效。"
+        },
+        "#LANE_EFFECT": {
+          "description": "击中节奏图示或点击空轨道时，轨道会发光。"
+        },
+        "#STAGE_ASPECTRATIO_LOCK": {},
+        "#PREVIEW_SCALE_VERTICAL": {},
+        "Strict Flick Direction": {
+          "title": "严格判定滑击方向",
+          "description": "滑击方向必须与箭头一致。"
+        },
+        "Notes Speed": {
+          "title": "节奏图示速度",
+          "description": "数值越高，节奏图示接近判定线的速度越快。"
+        },
+        "Notes Timing": {
+          "title": "节奏图示判定时机",
+          "description": "SLOW 判定较多时请调高数值，FAST 判定较多时请调低。"
+        },
+        "Chart Position": {
+          "title": "谱面位置",
+          "description": "正值会让谱面相对于音乐延后，负值则会让谱面提前。"
+        },
+        "Mirror Chart": {
+          "title": "镜像谱面"
+        },
+        "FAST/SLOW Display": {
+          "title": "FAST/SLOW显示"
+        },
+        "PERFECT FAST/SLOW Display": {
+          "title": "PERFECT的FAST/SLOW显示"
+        },
+        "FAST/SLOW Numerical Display": {
+          "title": "FAST/SLOW 数值显示"
+        },
+        "Judgment Text Display Position": {
+          "values": [
+            "中央",
+            "各轨道",
+            "不显示"
+          ],
+          "title": "判定显示"
+        },
+        "HIT Position": {
+          "title": "判定位置"
+        },
+        "HIT Position Display": {
+          "title": "判定位置显示"
+        },
+        "Slide Opacity": {
+          "title": "滑动不透明度"
+        },
+        "Guide Opacity": {
+          "title": "辅助线不透明度"
+        },
+        "Simultaneous Press Line Display": {
+          "title": "同时点击线显示"
+        },
+        "Bar Line Display": {
+          "title": "小节线显示"
+        },
+        "Damage Effect": {
+          "title": "伤害特效"
+        },
+        "Background Brightness": {
+          "title": "背景亮度",
+          "description": "调低亮度可使节奏图示后方的舞台变暗。"
+        },
+        "Combo Number Display": {
+          "title": "COMBO数显示"
+        },
+        "HIT Breakdown": {
+          "title": "判定明细显示"
+        },
+        "Continuous Effect Display": {
+          "title": "持续特效显示"
+        },
+        "Lane Opacity": {
+          "title": "轨道不透明度",
+          "description": "调低不透明度，透过轨道可以更清楚地看到舞台。"
+        },
+        "Guideline Opacity": {
+          "title": "引导线不透明度"
+        },
+        "Number of Guidelines": {
+          "values": [
+            "不显示",
+            "4轨道",
+            "6轨道",
+            "8轨道",
+            "12轨道"
+          ],
+          "title": "引导线显示数量"
+        },
+        "LIVE Skill Activation Display": {
+          "title": "演出技能发动位置显示"
+        },
+        "Notes Start Position": {
+          "title": "节奏图示起始位置"
+        },
+        "SE Mute": {
+          "title": "音效（静音）"
+        },
+        "Notes SE Mute": {
+          "title": "节奏图示音效（静音）"
+        },
+        "Notes SE Change": {
+          "values": [
+            "交织的乐章",
+            "清脆",
+            "木材",
+            "打字"
+          ],
+          "title": "节奏图示音效更改"
+        },
+        "Notes Type SE & Volume Setting": {
+          "title": "调整各类型节奏图示的音效与音量"
+        },
+        "Tap": {
+          "values": [
+            "交织的乐章",
+            "清脆",
+            "木材",
+            "打字"
+          ],
+          "title": "点击"
+        },
+        "Tap Mute": {
+          "title": "点击（静音）"
+        },
+        "Empty Tap": {
+          "values": [
+            "交织的乐章",
+            "清脆",
+            "木材",
+            "打字"
+          ],
+          "title": "空点击"
+        },
+        "Empty Tap Mute": {
+          "title": "空点击（静音）"
+        },
+        "Flick": {
+          "values": [
+            "交织的乐章",
+            "清脆",
+            "木材",
+            "打字"
+          ],
+          "title": "滑击"
+        },
+        "Flick Mute": {
+          "title": "滑击（静音）"
+        },
+        "Side Flick": {
+          "values": [
+            "交织的乐章",
+            "清脆",
+            "木材",
+            "打字"
+          ],
+          "title": "侧向滑击"
+        },
+        "Side Flick Mute": {
+          "title": "侧向滑击（静音）"
+        },
+        "Slide": {
+          "values": [
+            "交织的乐章",
+            "清脆",
+            "木材",
+            "打字"
+          ],
+          "title": "滑动"
+        },
+        "Slide Mute": {
+          "title": "滑动（静音）"
+        },
+        "Trace": {
+          "values": [
+            "交织的乐章",
+            "清脆",
+            "木材",
+            "打字"
+          ],
+          "title": "跟随"
+        },
+        "Trace Mute": {
+          "title": "跟随（静音）"
+        },
+        "判定表示位置": {
+          "values": [
+            "样式1",
+            "样式2"
+          ],
+          "title": "判定显示位置"
+        },
+        "Rhythm Support": {
+          "title": "节奏辅助",
+          "description": "根据小节内的节奏调整点按、滑动和长条起点的外观。"
+        }
+      },
+      "categories": {
+        "Sonolus": "Sonolus",
+        "Basic / Notes Setting": "基础 - 节奏图示设置",
+        "Basic / LIVE Setting": "基础 - 演出设置",
+        "Details / Lane Setting": "详情 - 轨道设置",
+        "Details / Notes Setting": "详情 - 节奏图示设置",
+        "Details / Effect Setting": "详情 - 特效设置",
+        "Display 1 / Background Display Setting": "显示1 - 背景显示设置",
+        "Display 1 / Combo Display Setting": "显示1 - COMBO显示设置",
+        "Display 2 / Lane Skin Display Setting": "显示2 - 轨道外观显示设置",
+        "Display 2 / Notes Skin Display Setting": "显示2 - 节奏图示外观显示设置",
+        "Sound / LIVE Volume": "声音 - 演出音量",
+        "Sound / Notes SE": "声音 - 节奏图示音效"
+      }
+    }
+  },
+  "quality": {
+    "type": "select",
+    "required": true,
+    "def": "1",
+    "name": {
+      "ja": "ライブ品質",
+      "en": "LIVE Quality",
+      "ko": "라이브 품질",
+      "zht": "演出品質",
+      "zhs": "演出画质"
+    },
+    "description": {
+      "ja": "軽量品質にすることで処理の重さや\nバッテリーの消費等を軽減します。",
+      "en": "Selecting Lite Quality reduces processing load and battery consumption.",
+      "ko": "저사양 모드로 설정하면 성능 부하와\n배터리 소모를 줄일 수 있습니다.",
+      "zht": "設定為輕量品質能減輕運算負擔，\n以及電池的電力消耗。",
+      "zhs": "设置为轻量画质，\n可减轻运行负荷，降低电量消耗。"
+    },
+    "values": {
+      "0": {
+        "ja": "高品質",
+        "en": "High Quality",
+        "ko": "고품질",
+        "zht": "高品質",
+        "zhs": "高画质"
+      },
+      "1": {
+        "ja": "標準品質",
+        "en": "Standard Quality",
+        "ko": "표준 품질",
+        "zht": "標準品質",
+        "zhs": "标准画质"
+      },
+      "2": {
+        "ja": "軽量品質",
+        "en": "Lite Quality",
+        "ko": "저사양 모드",
+        "zht": "輕量品質",
+        "zhs": "轻量画质"
+      }
+    }
+  },
+  "noteStyle": {
+    "type": "select",
+    "required": true,
+    "def": "0",
+    "name": {
+      "ja": "ノーツデザイン",
+      "en": "Note Style",
+      "ko": "노트 디자인",
+      "zht": "節奏圖示設計",
+      "zhs": "节奏图示样式"
+    },
+    "values": {
+      "0": {
+        "ja": "アワーノーツ",
+        "en": "Our Notes",
+        "ko": "아워 노트",
+        "zht": "交織的樂章",
+        "zhs": "交织的乐章"
+      },
+      "1": {
+        "ja": "ガルパ",
+        "en": "Garupa",
+        "ko": "걸파",
+        "zht": "邦邦",
+        "zhs": "少女乐团派对"
+      },
+      "2": {
+        "ja": "ハニカム",
+        "en": "Honeycomb",
+        "ko": "허니콤",
+        "zht": "Honeycomb",
+        "zhs": "蜂巢"
+      }
+    }
+  },
+  "noteEffect": {
+    "type": "select",
+    "required": true,
+    "def": "0",
+    "name": {
+      "ja": "ノーツエフェクト",
+      "en": "Notes Effect",
+      "ko": "노트 이펙트",
+      "zht": "節奏圖示特效",
+      "zhs": "节奏图示特效"
+    },
+    "values": {
+      "0": {
+        "ja": "スタンダード",
+        "en": "Standard",
+        "ko": "스탠다드",
+        "zht": "標準",
+        "zhs": "标准"
+      },
+      "1": {
+        "ja": "シンプル",
+        "en": "Simple",
+        "ko": "심플",
+        "zht": "簡約",
+        "zhs": "简洁"
+      }
+    }
+  }
+}
